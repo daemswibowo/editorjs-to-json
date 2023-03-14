@@ -19,9 +19,10 @@ export const EDITOR_TOOLS = {
 }
 
 const Editor = (props) => {
+    const {...rest} = props;
     const EditorJS = createReactEditorJS();
 
-    return <EditorJS tools={EDITOR_TOOLS} {...props}/>
+    return <EditorJS tools={EDITOR_TOOLS} {...rest}/>
 }
 
 export default Editor;
