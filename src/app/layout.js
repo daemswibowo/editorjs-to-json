@@ -1,7 +1,7 @@
 'use client'
 
 import {CacheProvider} from '@chakra-ui/next-js'
-import {Box, ChakraProvider} from '@chakra-ui/react'
+import {ChakraProvider} from '@chakra-ui/react'
 
 export default function RootLayout({children}) {
     return (<html lang='en'>
